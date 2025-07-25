@@ -9,33 +9,33 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
+<!-- Navbar -->
+<div class="max-w-6xl mx-auto">
+  <nav class="bg-[#f9fbff] px-6 py-4 flex items-center justify-between">
+    <!-- Left: Logo -->
+    <div>
+      <img src="images/logo.png" alt="Fauget Logo" class="w-28">
+    </div>
 
- <div class="max-w-6xl mx-auto">
-<nav class="bg-[#f9fbff] px-6 py-4 flex items-center justify-between">
-  
-  <div>
-    <img src="images/logo.png" alt="Fauget Logo" class="w-28">
-  </div>
+    <div class="hidden md:flex items-center space-x-8 text-gray-400 font-medium">
+      <a href="#" class="text-black font-bold">Home</a>
+      <a href="#" class="hover:text-black transition">Shop</a>
+      <a href="#" class="hover:text-black transition">About us</a>
+    </div>
 
- 
-  <div class="flex items-center space-x-8 text-gray-400 font-medium">
-    <a href="#" class="text-black font-bold">Home</a>
-    <a href="#" class="hover:text-black transition">Shop</a>
-    <a href="#" class="hover:text-black transition">About us</a>
-    
-  
     <div class="flex items-center gap-2 text-black">
       <i class="fas fa-shopping-cart text-lg"></i>
       <span>Cart ($56)</span>
     </div>
-  </div>
+  </nav>
 </div>
-</nav>
 
 
 
 
 
+
+<!-- Hero Section -->
 <section class="bg-[#f9fafe] py-20">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 w-full px-6 md:px-8">
     <div class="md:w-1/2 text-left space-y-6">
@@ -60,7 +60,7 @@
 
 
 
-
+<!-- Plants Section -->
 <section class="px-6 py-12 text-center">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-3xl font-bold">
@@ -71,7 +71,7 @@
     </p>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
-      
+      <!-- 8 Repeated Cards -->
       <div class="bg-white shadow p-4">
         <img src="images/sample-flower-image.png" alt="Lily Blossom" class="w-full h-auto">
         <h3 class="mt-2 font-semibold">Lily Blossom</h3>
@@ -121,15 +121,16 @@
         <button class="bg-orange-500 text-white mt-2 px-4 py-2 w-full hover:bg-orange-600 transition">ADD TO CART</button>
       </div>
 
-      
+      <!-- Repeat 7 more times... -->
+      <!-- (You can copy-paste or use a loop in your framework) -->
     </div>
   </div>
 </section>
 
 
-
+<!-- Plants Lover Section -->
 <section class="flex flex-col md:flex-row items-center gap-10 py-16 bg-[#f9fafe]">
-  
+  <!-- Image Column -->
   <div class="md:w-1/2 w-full flex justify-center md:justify-end relative">
     <div class="relative w-[300px] md:w-[360px]">
       <img src="images/flower-store.png" alt="Plant Lover" class="w-full h-auto object-cover rounded-md shadow-md">
@@ -137,7 +138,7 @@
     </div>
   </div>
 
-
+  <!-- Text Column -->
   <div class="md:w-1/2 w-full text-left">
     <h2 class="text-3xl font-bold mb-6 leading-snug">
       Flower & Plants<br>Lover
@@ -154,7 +155,7 @@
 
 
 
-
+<!-- Latest Deals -->
 <section class="px-6 py-10 text-center bg-[#f9fafe]">
   <h2 class="text-3xl font-bold">
     <span class="text-orange-600">Latest</span> <span class="text-black">Deals</span>
@@ -166,9 +167,9 @@
 
 
 
-
+  <!-- Deals Grid -->
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 max-w-6xl mx-auto">
-
+    <!-- Left Column with 2 stacked deals -->
     <div class="flex flex-col gap-4">
       <div class="relative h-40 bg-cover bg-center rounded-lg text-white"
            style="background-image: url('images/deal-bloom.png');">
@@ -189,7 +190,7 @@
       </div>
     </div>
 
-
+    <!-- Right Column: Zabo Deal -->
     <div class="md:col-span-2">
       <div class="relative h-full min-h-[328px] bg-cover bg-center rounded-lg text-white"
            style="background-image: url('images/deal-zabo.png');">
@@ -205,7 +206,7 @@
 
 
 
-
+<!-- Join Section -->
 <section class="bg-cover bg-center text-white py-16 sm:py-20 md:py-28 px-4 sm:px-6 text-center" style="background-image: url('images/news-letter-bg.png');">
   <div class="max-w-2xl mx-auto">
     <h2 class="text-2xl sm:text-3xl font-bold mb-4">Join the colorful Bunch</h2>
@@ -223,17 +224,17 @@
 </section>
 
 
-
+  <!-- Footer -->
 <footer class="bg-white px-6 py-10">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
     
-
+    <!-- Logo + Description -->
     <div class="flex-1 text-center md:text-left">
       <img src="images/logo.png" alt="Fauget Logo" class="w-24 mx-auto md:mx-0">
       <p class="text-gray-600 mt-2">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
     </div>
 
-
+    <!-- Navigation Links -->
     <div class="flex-1 flex justify-center">
       <div class="flex gap-12">
         <ul class="text-center">
@@ -251,7 +252,7 @@
       </div>
     </div>
 
-
+    <!-- Social Icons -->
     <div class="flex-1 flex justify-center md:justify-end space-x-4">
       <img src="images/icon-facebook.png" class="w-6" alt="Facebook">
       <img src="images/icon-twitter.png" class="w-6" alt="Twitter">
